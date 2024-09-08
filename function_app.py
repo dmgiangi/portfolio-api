@@ -25,8 +25,8 @@ def mail_sender(req: func.HttpRequest) -> func.HttpResponse:
     # Email content
     email_data = {
         "sender": {
-            "name": f"{name}",
-            "email": f"{email}"
+            "name": "Gianluigi De Marco",
+            "email": "dem.gianluigi@gmail.com"
         },
         "to": [
             {
